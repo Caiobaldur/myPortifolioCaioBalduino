@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Monomaniac+One&family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.css"
+    />
     <!-- . -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/style.css">
@@ -14,7 +18,7 @@
 
     <!-- Script -->
   <script src="/js/slides.js" type="module" defer></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.js" type="module" defer></script>
     <!-- . -->
   </head>
   
@@ -38,15 +42,17 @@
         <h2>
           CAIO
           <span>
-            <a href="" target="_blank"><img class="icon1" src="/images/github.svg" alt=""></a>
-            <a href="" target="_blank"><img class="icon2" src="/images/in.svg" alt=""></a>
+            <a href="https://github.com/Caiobaldur" target="_blank"><img class="icon1" src="/images/github.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/caio-balduino-3442721b4/" target="_blank"><img class="icon2" src="/images/in.svg" alt=""></a>
           </span></br>
           BALDUINO
         </h2>
         <p class="last_line">Desenvolvedor Frontend</p>
       </div>
-      <img class="shaking_hand" src="/images/hand.svg" alt="">
     </section>
+    <div class="hello_hand">
+      <img class="shaking_hand" src="/images/hand.svg" alt="">
+    </div>
 
     <section class="about_me">
       <h2>Sobre mim</h2>
@@ -64,67 +70,55 @@
     <section class="tecnologies">
       <h2>Tecnologias que uso atualmente</h2>
       <div class="tecnologies_wrapper">
-        <img src="/images/html5.svg" alt="">
-        <img src="/images/css-3.svg" alt="">
-        <img src="/images/logo-javascript.svg" alt="">
-        <img src="/images/react.svg" alt="">
-        <img src="/images/node.svg" alt="">
-        <img src="/images/tailwind-css.svg" alt="">
-      </div>
-    </section>
-
-    <section class="works_wrapper">
-      <h2>Trabalhos realizados</h2>
-      
-      <div class="wrapper">
-        <div class="slide-wrapper" data-slide="wrapper">
-          <button class="slide-nav-button slide-nav-previous fas fa-angle-left" data-slide="nav-previous-button"></button>
-          <button class="slide-nav-button slide-nav-next fas fa-angle-right" data-slide="nav-next-button"></button>
-          <div class="slide-list" data-slide="list">
-            <div class="slide-item" data-slide="item" data-index="0">
-              <div class="slide-content">
-                <img src="/works/trab1.svg" alt="job1">
-                <div class="slide-description">
-                  <h3>Lorem ipsum</h3>
-                  <p>Lorem ipsum</p>
-                </div>
-              </div>
-            </div>
-            <div class="slide-item" data-slide="item" data-index="1">
-              <div class="slide-content">
-                <img src="/works/trab2.svg" alt="job1">
-                <div class="slide-description">
-                  <h3>Lorem ipsum</h3>
-                  <p>Lorem ipsum</p>
-                </div>
-              </div>
-            </div>
-            <div class="slide-item" data-slide="item" data-index="2">
-              <div class="slide-content">
-                <img src="/works/trab3.svg" alt="job1">
-                <div class="slide-description">
-                  <h3>Lorem ipsum</h3>
-                  <p>Lorem ipsum</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="slide-controls" data-slide="controls">
-            <button class="slide-control-button fas fa-circle active" data-slide="control-button"></button>
-            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
-            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
-            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
-            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
-            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
-            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
-            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
-            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
-            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
-          </div>
+        <div class="icon">
+          <img src="/images/html5.svg" alt="">
+          <span class="name">HTML5</span>
+        </div>
+        <div class="icon">
+          <img src="/images/css-3.svg" alt="">
+          <span class="name">CSS3</span>
+        </div>
+        <div class="icon">
+          <img src="/images/logo-javascript.svg" alt="">
+          <span class="name">JavaScript</span>
+        </div>
+        <div class="icon">
+          <img src="/images/react.svg" alt="">
+          <span class="name">React</span>
+        </div>
+        <div class="icon">
+          <img src="/images/node.svg" alt="">
+          <span class="name">Node.js</span>
+        </div>
+        <div class="icon">
+          <img src="/images/tailwind-css.svg" alt="">
+          <span class="name">Tailwind CSS</span>
         </div>
       </div>
     </section>
-  
+    
+
+    <section class="works_wrapper">
+      <div id="my-keen-slider" class="keen-slider">
+        <div class="keen-slider__slide number-slide1">1</div>
+        <div class="keen-slider__slide number-slide2">2</div>
+        <div class="keen-slider__slide number-slide3">3</div>
+        <div class="keen-slider__slide number-slide4">4</div>
+        <div class="keen-slider__slide number-slide5">5</div>
+        <div class="keen-slider__slide number-slide6">6</div>
+      </div>
+      <div id="thumbnails" class="keen-slider thumbnail">
+        <div class="keen-slider__slide number-slide1">1</div>
+        <div class="keen-slider__slide number-slide2">2</div>
+        <div class="keen-slider__slide number-slide3">3</div>
+        <div class="keen-slider__slide number-slide4">4</div>
+        <div class="keen-slider__slide number-slide5">5</div>
+        <div class="keen-slider__slide number-slide6">6</div>
+      </div>
+    </section>
   </body>
 
+
+
+  
 </html>
