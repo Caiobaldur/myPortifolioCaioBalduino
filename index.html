@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Monomaniac+One&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Monomaniac+One&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <!-- . -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/style.css">
     <title>Caio Balduino</title>
 
     <!-- Script -->
-  <script type="module" defer></script>
+  <script src="/js/slides.js" type="module" defer></script>
+  
     <!-- . -->
   </head>
   
@@ -41,7 +43,7 @@
           </span></br>
           BALDUINO
         </h2>
-        <p class="last_line">Desenvolvedor frontend</p>
+        <p class="last_line">Desenvolvedor Frontend</p>
       </div>
       <img class="shaking_hand" src="/images/hand.svg" alt="">
     </section>
@@ -73,44 +75,53 @@
 
     <section class="works_wrapper">
       <h2>Trabalhos realizados</h2>
-      <div class="slider">
-        <div class="slides">
-          <input type="radio" name="radio-btn" id="radio1">
-          <input type="radio" name="radio-btn" id="radio2">
-          <input type="radio" name="radio-btn" id="radio3">
-          <input type="radio" name="radio-btn" id="radio4">
-        
-          <div class="slide first">
-            <img src="/images/trab1.jpg" alt="">
+      
+      <div class="wrapper">
+        <div class="slide-wrapper" data-slide="wrapper">
+          <button class="slide-nav-button slide-nav-previous fas fa-angle-left" data-slide="nav-previous-button"></button>
+          <button class="slide-nav-button slide-nav-next fas fa-angle-right" data-slide="nav-next-button"></button>
+          <div class="slide-list" data-slide="list">
+            <div class="slide-item" data-slide="item" data-index="0">
+              <div class="slide-content">
+                <img src="/works/trab1.svg" alt="job1">
+                <div class="slide-description">
+                  <h3>Lorem ipsum</h3>
+                  <p>Lorem ipsum</p>
+                </div>
+              </div>
+            </div>
+            <div class="slide-item" data-slide="item" data-index="1">
+              <div class="slide-content">
+                <img src="/works/trab2.svg" alt="job1">
+                <div class="slide-description">
+                  <h3>Lorem ipsum</h3>
+                  <p>Lorem ipsum</p>
+                </div>
+              </div>
+            </div>
+            <div class="slide-item" data-slide="item" data-index="2">
+              <div class="slide-content">
+                <img src="/works/trab3.svg" alt="job1">
+                <div class="slide-description">
+                  <h3>Lorem ipsum</h3>
+                  <p>Lorem ipsum</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="slide">
-            <img src="/images/trab1.jpg" alt="">
+          <div class="slide-controls" data-slide="controls">
+            <button class="slide-control-button fas fa-circle active" data-slide="control-button"></button>
+            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
+            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
+            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
+            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
+            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
+            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
+            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
+            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
+            <button class="slide-control-button fas fa-circle" data-slide="control-button"></button>
           </div>
-          <div class="slide">
-            <img src="/images/trab1.jpg" alt="">
-          </div>
-          <div class="slide">
-            <img src="/images/trab1.jpg" alt="">
-          </div>
-
-          <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-          </div>
-
-
-
         </div>
-        <div class="manual-navigation">
-          <label for="radio1" class="manual.btn"></label>
-          <label for="radio2" class="manual.btn"></label>
-          <label for="radio3" class="manual.btn"></label>
-          <label for="radio4" class="manual.btn"></label>
-        </div>
-
-
       </div>
     </section>
   
