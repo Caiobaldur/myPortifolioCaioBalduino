@@ -238,6 +238,23 @@ span {
 
 /****************SLIDER*********************/
 
+.works_wrapper {
+  background-color: #000000;
+  padding: 5rem;
+}
+
+.works_wrapper h2 {
+  color: #ffffff;
+  font-family: var(--terciary-font);
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.keen-slider__slide .number-slide1 img {
+  object-fit:contain;
+}
+
 [class^="number-slide"],
 [class*=" number-slide"] {
   background: grey;
@@ -247,7 +264,8 @@ span {
   font-size: 50px;
   color: #fff;
   font-weight: 500;
-  height: 200px;
+  
+  height: 400px;
   max-height: 100vh;
 }
 
@@ -319,7 +337,7 @@ span {
   cursor: pointer;
 }
 .thumbnail .keen-slider__slide.active {
-  border: 2px dashed black;
+  border: 2px solid white;
 }
 
 
