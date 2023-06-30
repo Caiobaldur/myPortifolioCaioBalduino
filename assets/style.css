@@ -29,7 +29,7 @@ body {
   background-image: linear-gradient(to top, #F9F6F2, #b6b6b6);
   background-repeat: no-repeat;
   height: 100vh;
-  
+  width: 100%;
 }
 
 /*Wide screen*/
@@ -60,7 +60,7 @@ body {
     }
     
     .about__item {
-      padding: 0.5rem 1rem;
+      
     }
     
     .about__item:hover {
@@ -78,12 +78,12 @@ body {
 
 /*Introduction*/
 .principal__wrapper {
-  max-width: 100vh;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 5rem;
-  margin: 0 auto;
+  margin: 0 40rem;
   padding-top: 15rem;
   color: rgb(0, 0, 0);
 }
@@ -178,8 +178,6 @@ span {
   font-family: var(--terciary-font);
   font-size: 1.5rem;
   text-align: justify;
-  padding: 0 50rem;
-  
   padding-bottom: 2rem;
 }
 /*******************************************/
@@ -211,7 +209,7 @@ span {
 }
 
 .icon img {
-  width: 15rem;
+  width: 10rem;
   transition: transform 0.3s ease-out;
 }
 
@@ -236,11 +234,279 @@ span {
 /***********************************/
 
 
-/****************SLIDER*********************/
 
+/****************IMAGE - SLIDER*********************/
+
+#my-keen-slider .keen-slider__slide {
+  min-height: 700px;
+  }
+
+.number-slide1 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab1.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100%;
+}
+
+.picture-1 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab1.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  pointer-events: none;
+}
+
+.number-slide2 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab2.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100%;
+}
+
+.picture-2 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab2.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  pointer-events: none;
+}
+
+.number-slide3 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab3.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.picture-3 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab3.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide4 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab4.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100%;
+}
+
+.picture-4 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab4.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide5 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab5.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100%;
+}
+
+.picture-5 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab5.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide6 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab6.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-6 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab6.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide7 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab7.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-7 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab7.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide8 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab8.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-8 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab8.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide9 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab9.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-9 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab9.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide10 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab10.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-10 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab10.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide11 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab11.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-11 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab11.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide12 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab12.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-12 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab12.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide13 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab13.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-13 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab13.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+/********************************************/
+
+/****************SLIDER*********************/
 .works_wrapper {
   background-color: #000000;
-  padding: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.slide {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  
 }
 
 .works_wrapper h2 {
@@ -251,9 +517,6 @@ span {
   margin-bottom: 3rem;
 }
 
-.keen-slider__slide .number-slide1 img {
-  object-fit:contain;
-}
 
 [class^="number-slide"],
 [class*=" number-slide"] {
@@ -269,23 +532,8 @@ span {
   max-height: 100vh;
 }
 
-.number-slide1 {
-  background: rgb(64, 175, 255);
-  background: linear-gradient(
-    128deg,
-    rgba(64, 175, 255, 1) 0%,
-    rgba(63, 97, 255, 1) 100%
-  );
-}
 
-.number-slide2 {
-  background: rgb(255, 75, 64);
-  background: linear-gradient(
-    128deg,
-    rgba(255, 154, 63, 1) 0%,
-    rgba(255, 75, 64, 1) 100%
-  );
-}
+
 
 .number-slide3 {
   background: rgb(182, 255, 64);
@@ -349,39 +597,50 @@ span {
 @media screen and (max-width: 768px) {
 
     /*Fixed Bar*/
-.header__wrapper {
-  position: fixed;
-  width: 100%;
-  display: flex;
-  background-color: var(--primary-color);
-  font-family: var(--terciary-font);
-  justify-content: space-between;
-  height: 7vh;
-  align-items: center;
-  color: #ffffff;
-}
+    .header__wrapper {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      background-color: rgba(10, 14, 12, 0.8); /* Cor de fundo com opacidade */
+      backdrop-filter: blur(10px); /* Desfoque de fundo (opcional) */
+      font-family: var(--terciary-font);
+      justify-content: space-between;
+      
+      align-items: center;
+      color: #ffffff;
+    
+    }
+    
+    .header_about {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+      margin-right: 4rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+    
+    
+    .about__item:hover {
+      transition: 0.5s;
+      color: #95a36c;
+    }
+
 
 .header__wrapper h1 {
-  margin-left: 2rem;
+  margin-left: 4rem;
   font-size: 3rem;
-}
-
-.header_about {
-  display: flex;
-  list-style: none;
-  gap: 1.5rem;
-  margin-right: 2rem;
-  font-size: 1.4rem;
 }
 /*******************************************/
 
 /****************Introduction**************/
 .principal__wrapper {
-  max-width: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 15rem;
+  margin: 0 auto;
   color: black;
 }
 
@@ -508,9 +767,292 @@ span {
 
 
 /****************SLIDER*********************/
+.keen-slider__slide a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab1.png) center top;
+  background-size:contain;
+  
+  background-repeat: no-repeat;
+  background-size: 255%;
+}
+
+.number-slide1 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab1.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 200%;
+}
+
+.picture-1 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab1.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 400%;
+  pointer-events: none;
+
+}
+
+.number-slide2 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab2.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 200%;
+}
+
+.picture-2 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab2.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 250%;
+  pointer-events: none;
+}
+
+.number-slide3 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab3.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 200%;
+}
+
+.picture-3 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab3.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 250%;
+  pointer-events: none;
+}
+
+.number-slide4 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab4.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 200%;
+}
+
+.picture-4 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab4.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 210%;
+  pointer-events: none;
+}
+
+.number-slide5 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab5.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 200%;
+}
+
+.picture-5 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab5.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  pointer-events: none;
+}
+
+.number-slide6 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab6.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+.picture-6 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab6.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 210%;
+  pointer-events: none;
+}
+
+.number-slide7 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab7.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+.picture-7 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab7.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 210%;
+  pointer-events: none;
+}
+
+.number-slide8 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab8.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+.picture-8 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab8.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  pointer-events: none;
+}
+
+.number-slide9 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab9.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+.picture-9 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab9.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 210%;
+  pointer-events: none;
+}
+
+.number-slide10 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab10.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+.picture-10 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab10.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide11 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab11.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+.picture-11 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab11.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide12 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab12.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+.picture-12 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab12.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide13 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab13.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+.picture-13 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab13.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
 
 
+
+#my-keen-slider .keen-slider__slide {
+  min-height: 300px;
+  }
 /********************************************/
   
 }
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .principal__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15rem;
+    margin: 0 auto;
+    color: black;
+  }
+}
+
+
 /*******************************************/
