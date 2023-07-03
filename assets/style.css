@@ -59,10 +59,6 @@ body {
       cursor: pointer;
     }
     
-    .about__item {
-      
-    }
-    
     .about__item:hover {
       transition: 0.5s;
       color: #95a36c;
@@ -179,6 +175,7 @@ span {
   font-size: 1.5rem;
   text-align: justify;
   padding-bottom: 2rem;
+  margin: 0 20rem;
 }
 /*******************************************/
 
@@ -725,7 +722,7 @@ span {
   font-family: var(--terciary-font);
   font-size: 1.5rem;
   text-align: justify;
-  padding: 0 2rem;
+  margin: 0 5rem;
   
   padding-bottom: 2rem;
 }
