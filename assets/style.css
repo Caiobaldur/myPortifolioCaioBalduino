@@ -490,6 +490,101 @@ span {
   pointer-events: none;
 }
 
+.number-slide14 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab14.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-14 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab14.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide15 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab15.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-15 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab15.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide16 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab16.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-16 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab16.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide17 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab17.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-17 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab17.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.number-slide18 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab18.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.picture-18 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab18.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
 /********************************************/
 
 /****************SLIDER*********************/
@@ -527,50 +622,6 @@ span {
   
   height: 400px;
   max-height: 100vh;
-}
-
-
-
-
-.number-slide3 {
-  background: rgb(182, 255, 64);
-  background: linear-gradient(
-    128deg,
-    rgba(182, 255, 64, 1) 0%,
-    rgba(63, 255, 71, 1) 100%
-  );
-  background: linear-gradient(
-    128deg,
-    rgba(189, 255, 83, 1) 0%,
-    rgba(43, 250, 82, 1) 100%
-  );
-}
-
-.number-slide4 {
-  background: rgb(64, 255, 242);
-  background: linear-gradient(
-    128deg,
-    rgba(64, 255, 242, 1) 0%,
-    rgba(63, 188, 255, 1) 100%
-  );
-}
-
-.number-slide5 {
-  background: rgb(255, 64, 156);
-  background: linear-gradient(
-    128deg,
-    rgba(255, 64, 156, 1) 0%,
-    rgba(255, 63, 63, 1) 100%
-  );
-}
-
-.number-slide6 {
-  background: rgb(64, 76, 255);
-  background: linear-gradient(
-    128deg,
-    rgba(64, 76, 255, 1) 0%,
-    rgba(174, 63, 255, 1) 100%
-  );
 }
 
 .thumbnail .keen-slider__slide {
@@ -957,7 +1008,7 @@ span {
   background: url(/works/trab10.png) center top;
   background-size:contain;
   background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: 200%;
 }
 
 .picture-10 a {
@@ -966,7 +1017,7 @@ span {
   background: url(/works/trab10.png) center top;
   background-size:contain;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 210%;
   pointer-events: none;
 }
 
@@ -976,7 +1027,7 @@ span {
   background: url(/works/trab11.png) center top;
   background-size:contain;
   background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: 200%;
 }
 
 .picture-11 a {
@@ -985,7 +1036,7 @@ span {
   background: url(/works/trab11.png) center top;
   background-size:contain;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 210%;
   pointer-events: none;
 }
 
@@ -995,7 +1046,7 @@ span {
   background: url(/works/trab12.png) center top;
   background-size:contain;
   background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: 200%;
 }
 
 .picture-12 a {
@@ -1004,7 +1055,7 @@ span {
   background: url(/works/trab12.png) center top;
   background-size:contain;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 210%;
   pointer-events: none;
 }
 
@@ -1014,7 +1065,7 @@ span {
   background: url(/works/trab13.png) center top;
   background-size:contain;
   background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: 200%;
 }
 
 .picture-13 a {
@@ -1023,9 +1074,105 @@ span {
   background: url(/works/trab13.png) center top;
   background-size:contain;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 210%;
   pointer-events: none;
 }
+
+.number-slide14 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab14.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+.picture-14 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab14.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 210%;
+  pointer-events: none;
+}
+
+.number-slide15 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab15.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+.picture-15 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab15.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 210%;
+  pointer-events: none;
+}
+
+.number-slide16 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab16.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+.picture-16 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab16.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 210%;
+  pointer-events: none;
+}
+
+.number-slide17 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab17.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+.picture-17 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab17.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 210%;
+  pointer-events: none;
+}
+
+.number-slide18 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab18.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+.picture-18 a {
+  width: 100%;
+  height: 100%;
+  background: url(/works/trab18.png) center top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-size: 210%;
+  pointer-events: none;
+}
+
 
 
 
